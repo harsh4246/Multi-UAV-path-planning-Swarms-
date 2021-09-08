@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Parallel" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Parallel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="./" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Parallel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Arena.cpp" />
+		<Unit filename="Arena.h" />
+		<Unit filename="Drone.cpp" />
+		<Unit filename="Drone.h" />
+		<Unit filename="Generation.cpp" />
+		<Unit filename="Generation.h" />
+		<Unit filename="GeneticAlgo.cpp" />
+		<Unit filename="GeneticAlgo.h" />
+		<Unit filename="Obstacle.cpp" />
+		<Unit filename="Obstacle.h" />
+		<Unit filename="Swarm.cpp" />
+		<Unit filename="Swarm.h" />
+		<Unit filename="Target.cpp" />
+		<Unit filename="Target.h" />
+		<Unit filename="Vehicle.cpp" />
+		<Unit filename="Vehicle.h" />
+		<Unit filename="VehicleData.cpp" />
+		<Unit filename="VehicleData.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
